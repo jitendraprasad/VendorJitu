@@ -31,10 +31,7 @@ public class Vendor {
 	
 	
 	
-	public Vendor(int venId) {
-		super();
-		this.venId = venId;
-	}
+	
 	
 	@Override
 	public boolean equals(Object obj) {
