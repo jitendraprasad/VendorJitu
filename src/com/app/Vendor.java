@@ -26,6 +26,25 @@ public class Vendor {
 	public String toString() {
 		return "Vendor [venId=" + venId + ", venName=" + venName + ", venSal=" + venSal + "]";
 	}
+	public Vendor() {
+		
+	}
+	public Vendor(int venId) {
+		
+		this.venId = venId;
+	}
+	public Vendor(int venId, String venName) {
+		
+		this.venId = venId;
+		this.venName = venName;
+	}
+	public Vendor(int venId, String venName, double venSal) {
+		
+		this.venId = venId;
+		this.venName = venName;
+		this.venSal = venSal;
+	}
+	
 	
 
 }
