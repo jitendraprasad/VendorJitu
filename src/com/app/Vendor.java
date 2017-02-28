@@ -35,9 +35,7 @@ public class Vendor {
 		super();
 		this.venId = venId;
 	}
-	public Vendor() {
-		super();
-	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
