@@ -30,11 +30,7 @@ public class Vendor {
 		
 	}
 	
-	public Vendor(int venId, String venName) {
-		
-		this.venId = venId;
-		this.venName = venName;
-	}
+	
 	public Vendor(int venId, String venName, double venSal) {
 		
 		this.venId = venId;
