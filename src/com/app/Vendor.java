@@ -31,12 +31,7 @@ public class Vendor {
 	}
 	
 	
-	public Vendor(int venId, String venName, double venSal) {
-		
-		this.venId = venId;
-		this.venName = venName;
-		this.venSal = venSal;
-	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
