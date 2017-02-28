@@ -43,6 +43,14 @@ public class Vendor {
 		result = prime * result + (int) (temp ^ (temp >>> 32));
 		return result;
 	}
+	
+	public Vendor(int venId) {
+		super();
+		this.venId = venId;
+	}
+	public Vendor() {
+		super();
+	}
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
