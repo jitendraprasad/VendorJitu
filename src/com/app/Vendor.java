@@ -29,10 +29,7 @@ public class Vendor {
 	public Vendor() {
 		
 	}
-	public Vendor(int venId) {
-		
-		this.venId = venId;
-	}
+	
 	public Vendor(int venId, String venName) {
 		
 		this.venId = venId;
@@ -66,6 +63,7 @@ public class Vendor {
 		Vendor other = (Vendor) obj;
 		if (venId != other.venId)
 			return false;
+		  
 		if (venName == null) {
 			if (other.venName != null)
 				return false;
