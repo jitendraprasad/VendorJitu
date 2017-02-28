@@ -26,23 +26,10 @@ public class Vendor {
 	public String toString() {
 		return "Vendor [venId=" + venId + ", venName=" + venName + ", venSal=" + venSal + "]";
 	}
-	public Vendor() {
-		
-	}
 	
 	
 	
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + venId;
-		result = prime * result + ((venName == null) ? 0 : venName.hashCode());
-		long temp;
-		temp = Double.doubleToLongBits(venSal);
-		result = prime * result + (int) (temp ^ (temp >>> 32));
-		return result;
-	}
+	
 	
 	public Vendor(int venId) {
 		super();
